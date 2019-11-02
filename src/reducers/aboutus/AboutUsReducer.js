@@ -1,0 +1,13 @@
+const initialAboutUs = [
+    {id: 0, title: 'Send Flowers Online from FlowerAura - India\'s No. 1 Online Florist', text: 'FlowerAura stands as a No. 1 online flower shop that doesn\'t only deliver flowers, gifts, and cakes but makes sure that each of the hampers is wrapped in love too. Along with the pocket-friendly deals come the free shipping that makes FlowerAura top the charts and establishing itself as one of the most reliable online florists in the country.'},
+    {id: 1, title: 'FlowerAura.com - When Words are not Enough', text: 'FlowerAura, a name that has now become synonymous to its commitment of making your occasions even grander, helps you express your deepest of emotions through its wide assortment of freshly handpicked flowers arrangements, Delicious Cakes, Handmade Chocolates, and Heart-warming Gifts. FlowerAura.com is an Online Gifting portal that ensures best quality services to its customers that comes along with free shipping. And this is not all, along with these gifting options FlowerAura also provides Special Song Dedication Service on Guitar for the NCR Region.'},
+    {id: 2, title: 'FlowerAuras Online Bouquets Of Affection Is Just A Click Away', text: 'Sending Gifts to your loved ones have become more convenient than ever. Marking its presence felt over 200+ cities, FlowerAura\'s user-friendly and intuitive interface provides you with an easy and hassle-free process. Being the best online florist and gifting portal of repute for the past 7 years, and with a strong affiliate network, FlowerAura has enabled itself to strengthen the vendor linkage in pan India, thereby making the delivery processes even more diligent in terms of service and quality parameters. And FlowerAura provides all this with the ease of a click.\n' +
+            '\n' +
+            'So, even if you are living countries away but have your heart in the country, you can easily send flowers and arrangements to India from an online flower shop and have it delivered on time to your dear ones. FlowerAura has the biggest network of local florists in metropolitan and remote cities which also means multiple delivery shops of flowers and gifts across India and therefore, delivery of flowers in India is never a worrisome issue.\n' +
+            '\n' +
+            'To add a love-filled statement to your occasions, FlowerAura provides you the same day delivery flowers to save you from the last minute realizations. Also, do not forget the midnight delivery of flowers that you can opt for and make someone\'s smile extra broad just when the clock strikes 12.'},
+]
+
+export default (state = initialAboutUs, action) => {
+    return state
+}

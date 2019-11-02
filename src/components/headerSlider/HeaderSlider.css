@@ -1,0 +1,70 @@
+.sliderbar {
+    position: relative;
+}
+.sliderimg {
+    width: 100%;
+}
+.changeslider {
+    position: absolute;
+    top: 40%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.sliderbtn {
+    background: #EBECFF;
+    padding: 30px 12px;
+    border: 2px solid rgba(0, 0, 0, .1);
+}
+.sliderbtn i {
+    font-size: 28px;
+    font-weight: 100;
+    color: darkgrey;
+}
+.btngroup {
+    display: flex;
+    justify-content: space-between;
+}
+.slidertitle {
+    position: absolute;
+    bottom: 35%;
+    left: 10%;
+}
+.slidertitle h2 {
+    font-size: 45px;
+    color: white;
+    font-weight: 500;
+    font-family: PlayfairDisplay;
+}
+.slidertitle h5 {
+    font-size: 25px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 500;
+}
+.giftnow {
+    margin: 20px 0;
+}
+.giftnow a {
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(45deg, #49A066, #68bb26);
+    padding: 10px 25px;
+    margin: 20px 0;
+}
+.underslider {
+    position: absolute;
+    bottom: 2%;
+    left: 45%;
+    display: flex;
+}
+.change, .change2, .change3 {
+    width: 40px;
+    height: 8px;
+    background: #F5EFDA;
+    border-radius: 5px;
+    margin: 0 5px
+}
+.change:hover, .change2:hover, .change3:hover {
+    background: white;
+}

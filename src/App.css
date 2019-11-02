@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+.head {
+  background: #F7F7F7;
+  padding: 10px 0 20px;
+}
+.container {
+  max-width: 1330px;
+  width: 90%;
+  margin: 0 auto;
+}
+.logo_search {
+  display: flex;
+  justify-content: space-between;
+}
+.logo_search .logo {
+  flex: .6;
+}
+.logo_search .searchPanel {
+  flex: 1;
+}
+.ties {
+  display: flex;
+  flex-direction: row-reverse;
+  align-self: center;
+}
+.ties .mid {
+  margin: 0 30px;
+}
+.ties div a {
+  text-decoration: none;
+}
+.franchies a{
+  background: #49A066;
+  padding: 1px 15px;
+  color: white;
+  font-size: 14px;
+}
+.mid a {
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+}
+.phoneNumber {
+  color: #F6515C;
+  font-size: 14px;
+  align-self: flex-end;
+}
+.sectionone {
+  padding: 60px 0;
+}
+.sectionthree {
+  background: #F8F9FD;
+}
+.backtotop {
+  position: sticky;
+  background: rgba(0, 0, 0, .2);
+  top:100px;
+  left: 10px;
+  border-radius: 5px;
+  z-index: 1;
+  width: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+.backtotop p {
+  font-size: 14px;
+  color: grey;
+}
+.backtotop i {
+  color: white;
+  font-size: 25px;
+}
+.aboutus {
+  margin: 20px 0 50px;
+}
+footer {
+  paddign: 50px 0 20px;
+  background: #F7F7F7;
+}

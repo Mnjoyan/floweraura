@@ -1,0 +1,94 @@
+.gray {
+    padding: 30px 0;
+    overflow: hidden;
+    position: relative;
+}
+.view {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.viewflower {
+    font-family: 'Palatino Linotype';
+}
+.allview a {
+    text-decoration: none;
+    color: grey;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background: #F9FAFC;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+.underscores {
+    width: 230%;
+    border-bottom: 3px solid red;
+    padding: 5px 0
+}
+.slides {
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+}
+.slides:hover {
+    transform: scale(1.02);
+    transition: .7s
+}
+#slid3:hover {
+    transform: scale(1.02);
+    transition: .7s;
+}
+.dfl {
+    display: flex;
+    justify-content: space-between;
+}
+.f0, .f1, .f2, .f3 {
+    text-align: right;
+}
+
+.white {
+    background: white;
+    width: 100%;
+}
+.pretty h2 {
+    font-weight: 500;
+}
+.bellowflower {
+    padding: 20px 10px;
+}
+.greenshadow {
+    color: #49A066;
+}
+.chevronleft i {
+    font-size: 18px;
+    z-index: 2;
+    color: white;
+}
+.chevronleft:hover {
+    background: grey;
+}
+.chevronleft {
+    padding: 25px 10px;
+    position: absolute;
+    top:  30%;
+    z-index: 2;
+    background: rgba(0, 0, 0, .2);
+    border: none;
+}
+.chevronright i {
+    font-size: 18px;
+    z-index: 2;
+    color: white;
+}
+.chevronright {
+    padding: 25px 10px;
+    position: absolute;
+    z-index: 2;
+    border: none;
+    background: rgba(0, 0, 0, .2);
+    top: 30%;
+    right: 0
+}
+.carousel:hover button {
+    background: darkgrey;
+}

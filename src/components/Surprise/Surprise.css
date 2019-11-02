@@ -1,0 +1,33 @@
+.surprise {
+    padding: 50px 0;
+}
+.redline {
+    border-bottom: 3px solid red;
+    width: 10%
+}
+.herorhim {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.special {
+    position: relative;
+    width: 45%;
+}
+.special img {
+    width: 100%;
+}
+.scalex {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    text-align: center;
+}
+.icon:hover img{
+    transform: scaleY(1.05);
+    transition: 1s;
+}
+.scalex h2, .scalex h5 {
+    color: white;
+    font-weight: bolder;
+}

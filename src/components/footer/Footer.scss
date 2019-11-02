@@ -1,0 +1,150 @@
+.footername {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px 0;
+    .spread {
+      h2 {
+        color: #49A066;
+        font-size: 35px;
+        padding: 35px 0;
+        font-family: Playfair;
+        text-align: center;
+      }
+    }
+    .socialicons {
+      width: 22%;
+      margin: 0 auto;
+      text-align: center;
+      ul {
+        display: flex;
+        justify-content: space-between;
+        li {
+          list-style: none;
+          a {
+            text-decoration: none;
+            i {
+              color: white;
+              font-size: 27px;
+              height: 40px;
+              width: 40px;
+              line-height: 150%;
+              border-radius: 50%;
+            }
+            span {
+               transform: scale(1, .7);
+              background: #F7F7F7;
+              border: 4px solid transparent;
+              border-radius: 50%;
+              display: block;
+  
+             }
+            .fa-facebook-f {
+              background: #3A589B;
+            }
+            .fa-twitter {
+              background: #598DCA;
+            }
+            .fa-pinterest-p {
+              background: #C8232C;
+            }
+            .fa-instagram {
+              background: linear-gradient(0deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+            }
+            &:hover {
+              i {
+                transform: translateY(-6px);
+                transition: .5s;
+  
+              }
+              span {
+                display: block;
+                box-shadow: 0px 10px 5px rgba(0, 0, 0, .2);
+                transition: .10ms;
+              }
+            }
+          }
+        }
+      }
+    }
+    .career {
+      width: 80%;
+      margin: 40px auto;
+      border-top: 1px solid rgba(0, 0, 0, .2);
+      border-bottom: 1px solid rgba(0, 0, 0, .2);
+      padding: 20px 0;
+      ul {
+        display: flex;
+        justify-content: space-between;
+        li {
+          list-style: none;
+          &::before {
+            content: "\2022";
+            font-size: 22px;
+            color: grey;
+            font-weight: bold;
+            display: inline-block;
+            width: .6em;
+            margin-left: -1px;
+          }
+          a {
+            text-decoration: none;
+            color: gray;
+            font-family: Lato;
+            font-size: 17px;
+          }
+        }
+      }
+    }
+    .partner {
+      text-align: center;
+      p {
+        font-size: 16px;
+        span {
+          color:#4894D4;
+        }
+      }
+    }
+  
+  }
+  .footercol {
+    background: white;
+    width: 100%;
+    padding: 10px 0;
+    .underthefooter {
+      display: flex;
+      justify-content: space-between;
+      width: 90%;
+      margin: 0 auto;
+      .copyright {
+        flex: 1.5;
+        p {
+          color: grey;
+          font-size: 17px;
+          font-weight: lighter;
+        }
+      }
+      .privacy {
+        flex: .5;
+        ul {
+          display: flex;
+          justify-content: space-between;
+          li {
+            list-style: none;
+            a {
+              text-decoration: none;
+              color: grey;
+              font-size: 17px;
+              font-weight: lighter;
+  
+              }
+  
+          }
+          .disclaim {
+             border-right: 1px solid rgba(0, 0, 0, .2);
+            padding-right: 5px;
+           }
+        }
+      }
+    }
+  }
+  

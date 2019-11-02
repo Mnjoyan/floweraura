@@ -1,0 +1,66 @@
+.assesment {
+    display: flex;
+    justify-content: space-between;
+}
+.childassesment {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 9px 0 #e6e6e6;
+    width: 32%;
+}
+.information {
+    width: 90%;
+    margin: 0 auto;
+}
+.finger {
+    font-size: 23px;
+    color: #49A066;
+    margin-top: 22px;
+}
+.pagetitle {
+    margin: 20px 0;
+}
+.pagetitle h2 {
+    font-family: 'Playfair Display';
+    font-weight: 500;
+}
+.icons i {
+    color: yellow;
+}
+.datenow {
+    margin: 20px 0;
+}
+.datenow h4 {
+    font-size: 18px;
+    font-weight: 500;
+}
+.datenow p {
+    color: grey;
+}
+.recommends {
+    margin: 10px 0 40px;
+}
+.farthumbs i {
+    color: #49A066;
+    padding-right: 5px;
+}
+.carousel {
+    position: relative;
+}
+.rightside {
+    position: absolute;
+    top: 35%;
+    padding: 25px 10px;
+    right: 0;
+    background: rgba(1, 0, 0, .2);
+    border: none;
+    z-index: 2;
+}
+.leftside {
+    position: absolute;
+    top: 35%;
+    z-index: 2;
+    padding: 25px 10px;
+    background: rgba(1, 0, 0, .2);
+    border: none;
+}

@@ -1,0 +1,21 @@
+@mixin textstyle($padd, $marg, $fontsz, $fontfm) {
+    padding: $padd;
+    margin: $marg;
+    font-size: $fontsz;
+    font-family: $fontfm;
+  }
+  .about {
+    padding: 20px 0;
+    h2 {
+      @include textstyle(5px 0, 0, 35px, "Playfair Display");
+    }
+    div {
+       margin: 20px 0;
+     }
+    h3 {
+      @include textstyle(5px 0, 0, 19px, "Lato");
+    }
+    p {
+      font-size: 14px;
+    }
+  }
